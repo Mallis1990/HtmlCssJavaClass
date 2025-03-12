@@ -29,3 +29,174 @@ Day-7 https://youtu.be/171x8WBsXTc  ----  Done
 Day-8 https://youtu.be/BLLDkpSG_54  ----  Done
 
 https://github.com/Mallis1990/HtmlCssJavaClass.git
+
+PS F:\730HTMLCSSJSPRASADSIR> git -v
+git version 2.48.1.windows.1
+PS F:\730HTMLCSSJSPRASADSIR> git init
+Initialized empty Git repository in F:/730HTMLCSSJSPRASADSIR/.git/
+PS F:\730HTMLCSSJSPRASADSIR> git user.email
+git: 'user.email' is not a git command. See 'git --help'.
+PS F:\730HTMLCSSJSPRASADSIR> git user.email malleshampothu1990@gmail.com
+git: 'user.email' is not a git command. See 'git --help'.
+PS F:\730HTMLCSSJSPRASADSIR> git config user.email malleshampothu1990@gmail.com
+PS F:\730HTMLCSSJSPRASADSIR> git config user.name mallis1990
+PS F:\730HTMLCSSJSPRASADSIR> git add.
+git: 'add.' is not a git command. See 'git --help'.
+
+The most similar command is
+        add
+PS F:\730HTMLCSSJSPRASADSIR> git add .
+PS F:\730HTMLCSSJSPRASADSIR> git commit -m new htmlcss class notes upload
+error: pathspec 'htmlcss' did not match any file(s) known to git
+error: pathspec 'class' did not match any file(s) known to git
+error: pathspec 'notes' did not match any file(s) known to git
+error: pathspec 'upload' did not match any file(s) known to git
+PS F:\730HTMLCSSJSPRASADSIR> git remote add origin https://github.com/Mallis1990/HtmlCssJavaClass.git
+PS F:\730HTMLCSSJSPRASADSIR> git commit -m new htmlcss class uploaded
+error: pathspec 'htmlcss' did not match any file(s) known to git
+error: pathspec 'class' did not match any file(s) known to git
+error: pathspec 'uploaded' did not match any file(s) known to git
+PS F:\730HTMLCSSJSPRASADSIR> git push -u origin branch
+error: src refspec branch does not match any
+error: failed to push some refs to 'https://github.com/Mallis1990/HtmlCssJavaClass.git'
+PS F:\730HTMLCSSJSPRASADSIR> git commit -m "html css class notes "
+[master (root-commit) 85de352] html css class notes
+ 23 files changed, 488 insertions(+)
+ create mode 100644 HTML/CODE/first/index.html
+ create mode 100644 HTML/NOTES/Demo links.txt
+ create mode 100644 HTML/NOTES/intro.txt
+ create mode 100644 HTML/PROJECTS/CustomerForm.zip
+ create mode 100644 HTML/PROJECTS/CustomerForm/Company-Profile.pdf
+ create mode 100644 HTML/PROJECTS/CustomerForm/Index.html
+ create mode 100644 HTML/PROJECTS/CustomerForm/SampleVideo_360x240_30mb.flv
+ create mode 100644 HTML/PROJECTS/CustomerForm/SampleVideo_640x360_1mb.mp4
+ create mode 100644 HTML/PROJECTS/CustomerForm/Self.png
+ create mode 100644 HTML/PROJECTS/Display Colleage Fex/Photos/1.jpg
+ create mode 100644 HTML/PROJECTS/Display Colleage Fex/Style.css
+ create mode 100644 HTML/PROJECTS/Display Colleage Fex/index.html
+ create mode 100644 HTML/PROJECTS/FlexDisplayPractice2/Images/1.jpg
+ create mode 100644 HTML/PROJECTS/FlexDisplayPractice2/Images/2.jpg
+ create mode 100644 HTML/PROJECTS/FlexDisplayPractice2/Images/3.jpg
+ create mode 100644 HTML/PROJECTS/FlexDisplayPractice2/Images/4.jpg
+ create mode 100644 HTML/PROJECTS/FlexDisplayPractice2/Images/5.jpg
+ create mode 100644 HTML/PROJECTS/FlexDisplayPractice2/Images/6.jpg
+ create mode 100644 HTML/PROJECTS/FlexDisplayPractice2/Images/7.jpg
+ create mode 100644 HTML/PROJECTS/FlexDisplayPractice2/Images/8.jpg
+ create mode 100644 HTML/PROJECTS/FlexDisplayPractice2/Images/9.jpg
+ create mode 100644 HTML/PROJECTS/FlexDisplayPractice2/index.html
+ create mode 100644 HTML/PROJECTS/FlexDisplayPractice2/style.css
+PS F:\730HTMLCSSJSPRASADSIR> git remote add origin https://github.com/Mallis1990/HtmlCssJavaClass.git
+error: remote origin already exists.
+PS F:\730HTMLCSSJSPRASADSIR> git push -u origin master
+info: please complete authentication in your browser...
+Enumerating objects: 34, done.
+Counting objects: 100% (34/34), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (29/29), done.
+Writing objects: 100% (34/34), 86.27 MiB | 3.59 MiB/s, done.
+Total 34 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/Mallis1990/HtmlCssJavaClass.git
+ * [new branch]      master -> master
+branch 'master' set up to track 'origin/master'.
+PS F:\730HTMLCSSJSPRASADSIR> git add .
+PS F:\730HTMLCSSJSPRASADSIR> git commit -m "testing git"
+[master e02c77f] testing git
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+PS F:\730HTMLCSSJSPRASADSIR> git push -p origin branch master
+error: unknown switch `p'
+usage: git push [<options>] [<repository> [<refspec>...]]
+
+    -v, --[no-]verbose    be more verbose
+    -q, --[no-]quiet      be more quiet
+    --[no-]repo <repository>
+                          repository
+    --[no-]all            push all branches
+    --[no-]branches       alias of --all
+    --[no-]mirror         mirror all refs
+    -d, --[no-]delete     delete refs
+    --[no-]tags           push tags (can't be used with --all or --branches or --mirror)
+    -n, --[no-]dry-run    dry run
+    --[no-]porcelain      machine-readable output
+    -f, --[no-]force      force updates
+    --[no-]force-with-lease[=<refname>:<expect>]
+                          require old value of ref to be at this value
+    --[no-]force-if-includes
+                          require remote updates to be integrated locally
+    --[no-]recurse-submodules (check|on-demand|no)
+                          control recursive pushing of submodules
+    --[no-]thin           use thin pack
+    --[no-]receive-pack <receive-pack>
+                          receive pack program
+    --[no-]exec <receive-pack>
+                          receive pack program
+    -u, --[no-]set-upstream
+                          set upstream for git pull/status
+    --[no-]progress       force progress reporting
+    --[no-]prune          prune locally removed refs
+    --no-verify           bypass pre-push hook
+    --verify              opposite of --no-verify
+    --[no-]follow-tags    push missing but relevant tags
+    --[no-]signed[=(yes|no|if-asked)]
+                          GPG sign the push
+    --[no-]atomic         request atomic transaction on remote side
+    -o, --[no-]push-option <server-specific>
+                          option to transmit
+    -4, --ipv4            use IPv4 addresses only
+    -6, --ipv6            use IPv6 addresses only
+
+PS F:\730HTMLCSSJSPRASADSIR> git push -p origin master              
+error: unknown switch `p'
+usage: git push [<options>] [<repository> [<refspec>...]]
+
+    -v, --[no-]verbose    be more verbose
+    -q, --[no-]quiet      be more quiet
+    --[no-]repo <repository>
+                          repository
+    --[no-]all            push all branches
+    --[no-]branches       alias of --all
+    --[no-]mirror         mirror all refs
+    -d, --[no-]delete     delete refs
+    --[no-]tags           push tags (can't be used with --all or --branches or --mirror)
+    -n, --[no-]dry-run    dry run
+    --[no-]porcelain      machine-readable output
+    -f, --[no-]force      force updates
+    --[no-]force-with-lease[=<refname>:<expect>]
+                          require old value of ref to be at this value
+    --[no-]force-if-includes
+                          require remote updates to be integrated locally
+    --[no-]recurse-submodules (check|on-demand|no)
+                          control recursive pushing of submodules
+    --[no-]thin           use thin pack
+    --[no-]receive-pack <receive-pack>
+                          receive pack program
+    --[no-]exec <receive-pack>
+                          receive pack program
+    -u, --[no-]set-upstream
+                          set upstream for git pull/status
+    --[no-]progress       force progress reporting
+    --[no-]prune          prune locally removed refs
+    --no-verify           bypass pre-push hook
+    --verify              opposite of --no-verify
+    --[no-]follow-tags    push missing but relevant tags
+    --[no-]signed[=(yes|no|if-asked)]
+                          GPG sign the push
+    --[no-]atomic         request atomic transaction on remote side
+    -o, --[no-]push-option <server-specific>
+                          option to transmit
+    -4, --ipv4            use IPv4 addresses only
+    -6, --ipv6            use IPv6 addresses only
+
+PS F:\730HTMLCSSJSPRASADSIR> git push -u origin master
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (5/5), 490 bytes | 490.00 KiB/s, done.
+Total 5 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/Mallis1990/HtmlCssJavaClass.git
+   85de352..e02c77f  master -> master
+branch 'master' set up to track 'origin/master'.
+PS F:\730HTMLCSSJSPRASADSIR> git history
+git: 'history' is not a git command. See 'git --help'.
+PS F:\730HTMLCSSJSPRASADSIR>git add
