@@ -1,0 +1,138 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    height: 100vh;
+    background-color: navy;
+}
+
+.container{
+height: 60vh;
+width: 80vh;
+display: grid;
+grid-template-columns: repeat(4 ,1fr);
+gap: 10px;
+}
+
+.child{
+    background-color: blueviolet;
+    color: chartreuse;  
+    font-size: 20px;
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: green;
+    display: flex; /* Centers the image */
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; /* Prevents the image from overflowing */ 
+
+
+}
+.child1{
+    grid-column-start: 1;
+    grid-column-end: 2;
+   
+}
+.child1  img {
+    width: 100%;  /* Fits inside the div width */
+    height: 100%; /* Fits inside the div height */
+    object-fit: cover; /* Ensures the image covers the box without distortion */
+    border-radius: 10px; /* Matches child box round corners */
+}
+.child2  img {
+    width: 100%;  /* Fits inside the div width */
+    height: 100%; /* Fits inside the div height */
+    object-fit: cover; /* Ensures the image covers the box without distortion */
+    border-radius: 10px; /* Matches child box round corners */
+}
+
+.child2{
+    grid-column-start: 2;
+    grid-column-end: 4;
+    background-color: red;
+    
+}
+
+.child3  img {
+    width: 100%;  /* Fits inside the div width */
+    height: 100%; /* Fits inside the div height */
+    object-fit: cover; /* Ensures the image covers the box without distortion */
+    border-radius: 10px; /* Matches child box round corners */
+}
+
+.child3{
+  
+    background-color: yellow;    
+}
+.child4  img {
+    width: 100%;  /* Fits inside the div width */
+    height: 100%; /* Fits inside the div height */
+    object-fit: cover; /* Ensures the image covers the box without distortion */
+    border-radius: 10px; /* Matches child box round corners */
+}
+
+
+.child4{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    background-color: green;
+    
+}
+.child5  img {
+    width: 100%;  /* Fits inside the div width */
+    height: 100%; /* Fits inside the div height */
+    object-fit: cover; /* Ensures the image covers the box without distortion */
+    border-radius: 10px; /* Matches child box round corners */
+}
+
+.child5{
+   
+    background-color: red;
+}        
+.child6  img {
+    width: 100%;  /* Fits inside the div width */
+    height: 100%; /* Fits inside the div height */
+    object-fit: cover; /* Ensures the image covers the box without distortion */
+    border-radius: 10px; /* Matches child box round corners */
+}
+
+.child6{
+   
+    background-color: yellow;
+}        
+   
+.child7  img {
+    width: 100%;  /* Fits inside the div width */
+    height: 100%; /* Fits inside the div height */
+    object-fit: cover; /* Ensures the image covers the box without distortion */
+    border-radius: 10px; /* Matches child box round corners */
+}
+
+.child7{
+    background-color: green;
+    
+}
+.child8  img {
+    width: 100%;  /* Fits inside the div width */
+    height: 100%; /* Fits inside the div height */
+    object-fit: cover; /* Ensures the image covers the box without distortion */
+    border-radius: 10px; /* Matches child box round corners */
+}
+
+.child8{
+    background-color: red;
+    
+}
+.child9  img {
+    width: 100%;  /* Fits inside the div width */
+    height: 100%; /* Fits inside the div height */
+    object-fit: cover; /* Ensures the image covers the box without distortion */
+    border-radius: 10px; /* Matches child box round corners */
+}
+
+.child9{
+    grid-column-start: 3;
+    grid-column-end: 5;
+    background-color: yellow;
+    
+}

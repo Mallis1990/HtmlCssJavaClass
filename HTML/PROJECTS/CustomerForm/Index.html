@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Registration</title>
+</head>
+<body>
+    <h1 style="color: darkslateblue;" >Customer Master</h1>
+    <form action="main.js">
+
+
+    <label style="display: inline-block; width: 150px;" for="dt" >Date :</label>
+    <input type="datetime-local" name="dt" id="dt" >
+    <br><br>
+
+    <label style="display: inline-block; width: 150px;" for="custname">Customer Name :</label>
+    <input type="text" placeholder="Enter Customer Name" name="Custname" id="custname"> 
+
+    <br><br>
+
+    <label style="display: inline-block; width: 150px;" for="allsname">Allias Name :</label>
+    <input type="text" placeholder="Enter allias name" name="allsname" id="allsname">
+    <br><br>
+
+    <label style="display: inline-block; width: 150px;" for="busname">Businness Name :</label>
+    <input type="text" placeholder="Enter your business name" name="busname" id="busname">
+    <br><br>
+
+    <label  style="display: inline-block; width: 150px;" for="addr1">Address :</label>
+    <textarea name="addr1" id="addr1"></textarea>
+    <br><br>
+    <label  style="display: inline-block; width: 150px;" for="addr2">Address :</label>
+    <textarea name="addr2" id="addr2"></textarea>
+    <br><br>
+
+    <label  style="display: inline-block; width: 150px;"for="city">City :</label>
+    <input type="text" name="city" id="city">
+    <br><br>
+
+    <label  style="display: inline-block; width: 150px;" for="dist">Dist :</label>
+    <input type="text" name="dist" id="dist"> 
+    <br> <br>
+
+    <label  style="display: inline-block; width: 150px;" for="pincode"> Pincode :</label>
+    <input type="number" name="pincode" id="pincode">
+    <br><br>
+    <label  style="display: inline-block; width: 150px;" for="stae">State :</label>
+    <input type="text" name="state" id="state" value="Maharashtra">
+    <br><br>
+    <label  style="display: inline-block; width: 150px;" for="country">Country :</label>
+    <input type="text" name="country" id="country" value="India">
+    <br><br>
+    <label  style="display: inline-block; width: 150px;" for="mob1">Mobile Number :</label>
+    <input type="number" name="mob1" id="mob1">
+    <br><br>
+    <label  style="display: inline-block; width: 150px;" for="email" >Email ID</label>
+    <input type="email" name ="email" id="email" placeholder="abc@gmal.com">   
+    <br><br>
+
+    <!--Drop down combo--->
+        <label  style="display: inline-block; width: 150px;"for="gstreg">Gst Reg :</label>
+        <select name="gstreg" id="gstreg">
+            <option value="Y">Registered</option>
+            <option value="N">NonRegistred</option>
+        </select>
+       
+        <br>
+        <br>
+        <label  style="display: inline-block; width: 150px;"for="gstno">Gst Numner :</label>
+        <input type="text" name="gstno" id="gstno">
+        <br><br>
+
+        <!--Radio Buttons--->
+
+        <input type="radio" name="sez" id="sez">
+        <label  style="display: inline-block; width: 150px;" for="sez">Sez</label>
+        <input type="radio" name="sez" id="nonsez">
+        <label  style="display: inline-block; width: 150px;" for="sez">Non Sez</label>
+        <br><br>
+
+        <!--Check Boxes--->
+        <input type="checkbox" name="chk1" id="chk1">
+        <label  style="display: inline-block; width: 150px;" for="chk1">Retail</label>
+
+        <input type="checkbox" name="chk2" id="chk2">
+        <label  style="display: inline-block; width: 150px;" for="chk2">Wholesale</label>
+
+        <input type="checkbox" name="chk3" id="chk3">
+        <label  style="display: inline-block; width: 150px;" for="chk2">Walkin</label>
+        <br><br>
+
+        <!--Url--->
+        <label  style="display: inline-block; width: 150px;" for="url">url :</label>
+        <input type="url" name="url" id="url">
+        <br><br>
+        <figure>
+            <img src="./Self.png" alt="Self Photo">
+            <figcaption>Mallesh</figcaption>
+        </figure>
+        <br><br>
+        <figure>
+            <img src="./SelfNone.png" alt="No Photo">
+            <figcaption>Mallesh</figcaption>
+        </figure>
+        <br><br>
+        <iframe src="./Company-Profile.pdf" frameborder="1" autocontrols >
+
+        </iframe>   
+        
+        <!--<iframe src="./SampleVideo_360x240_30mb.flv" frameborder="2"></iframe>-->
+
+        <video autocontrols>             
+            <source src="./SampleVideo_640x360_1mb.mp4">
+        </video>
+        
+        <iframe src="./SampleVideo_640x360_1mb.mp4" frameborder="1" autocontrols >
+        </iframe>  
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/t0Q2otsqC4I?si=bp68QSgPIJrg5aVW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+        <table>
+            <table border="1">
+                <tr>
+                    <th colspan="4">Company Key Peoples </th>
+                </tr>
+                <tr>
+                    <th>Srno</th>
+                    <th>Name</th>
+                    <th>Role</th>
+                    <th>Expereience</th>
+                                 
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Mallesh</td>
+                    <td>CEO</td>
+                    <td rowspan="2">30</td>                    
+                </tr>
+                <tr> 
+                    <td>2</td>
+                    <td>Prabhas</td>
+                    <td>MD</td>
+                            
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Keshav</td>
+                    <td colspan="1" rowspan="2">General Manager</td>
+                    <th colspan="1" rowspan="2">22</th>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Sachin</td>
+                </tr>
+            </table>
+        </table>
+<a href="www.google.com" target="_blank">Google</a>
+<br>
+<br>
+
+    <input type="Submit">
+    <input type="reset">
+
+</form>
+</body>
+</html>
